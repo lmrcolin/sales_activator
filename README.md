@@ -12,16 +12,8 @@ Free, end-to-end B2B outbound system for US MICE companies. Scrapes leads from p
 
 ## Quickstart
 
-1. Create and activate a virtual environment
+1. Install dependencies
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-2. Install dependencies
-
-````bash
 # SalesActivator – MICE (US Direct Segment)
 
 Free, end-to-end B2B outbound system for US MICE companies. Scrapes leads from public web sources, enriches data, sends Gmail SMTP sequences, and shows a Streamlit dashboard.
@@ -35,7 +27,7 @@ Free, end-to-end B2B outbound system for US MICE companies. Scrapes leads from p
 
 1) Clone and enter the project
 ```bash
-git clone .. salesactivator
+git clone https://github.com/lmrcolin/sales_activator.git salesactivator
 cd salesactivator
 ````
 
