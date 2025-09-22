@@ -12,8 +12,6 @@ Free, end-to-end B2B outbound system for US MICE companies. Scrapes leads from p
 
 ## Quickstart
 
-1. Install dependencies
-
 # SalesActivator – MICE (US Direct Segment)
 
 Free, end-to-end B2B outbound system for US MICE companies. Scrapes leads from public web sources, enriches data, sends Gmail SMTP sequences, and shows a Streamlit dashboard.
@@ -115,18 +113,6 @@ Streamlit Cloud (free):
 - Create app in Streamlit Cloud from the repo
 - Add Secrets (same keys as `.env`)
 - Command: `streamlit run app.py`
-
-## Loom demo flow
-
-1. Show `.env.example` → explain free Gmail SMTP via App Password
-2. Run CLI:
-   - `init-db`
-   - `scrape --use-seeds`
-   - `enrich --limit 10`
-   - `sequence --limit 10`
-   - `send --dry-run`
-3. Open the dashboard: leads, email queue, companies, contacts
-4. Emphasize 100% free stack and public data sources
 
 ## Notes
 
