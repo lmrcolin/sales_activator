@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-st/
+venv/
+.env
+.env.*
+
+# macOS/Linux
+.DS_Store
+*.swp
+
+# Data/Cache
+/data/*.db
+/data/cache/
+/logs/
+
+# Streamlit
+.streamlit/
